@@ -81,3 +81,16 @@ VALUES
 (8, 'Nala', 'Cat', 'Persian', '2022-01-20', 'Female', 'White', 8),
 (9, 'Ginger', 'Dog', 'Bulldog', '2016-04-04', 'Female', 'Brindle', 9),
 (10, 'Shadow', 'Cat', 'Russian Blue', '2015-06-06', 'Male', 'Gray', 10);
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason) VALUES
+(1, 1, '2023-01-05', 'Vaccination'),
+(2, 2, '2023-01-10', 'Routine Checkup'),
+(3, 3, '2023-02-02', 'Sprained leg'),
+(4, 4, '2023-02-15', 'Dental cleaning'),
+(5, 5, '2023-03-10', 'Skin infection'),
+(6, 6, '2023-03-10', 'Flea infestation'),
+(7, 7, '2023-04-12', 'Vaccination'),
+(8, 1, '2023-04-18', 'Spaying'),
+(9, 9, '2023-05-02', 'Allergic reaction'),
+(10, 10, '2023-05-20', 'Conjunctivitis');
+
