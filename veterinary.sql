@@ -37,3 +37,10 @@ CREATE TABLE doctors(
     phone VARCHAR(20),
     email VARCHAR(100)
 );
+
+CREATE TABLE invoices(
+    invoiceid PRIMARY KEY,
+    appointid FOREIGN KEY,
+    totalamount NUMERIC(10,2),
+    paymentdate TIME
+);
